@@ -1,6 +1,10 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebTabanliProgramlama.Default" %>
 
+<%@ Register Assembly="DevExpress.XtraCharts.v18.1.Web, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.XtraCharts.Web" TagPrefix="dx" %>
+
 <%@ Register Assembly="DevExpress.Web.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<%@ Register assembly="DevExpress.XtraCharts.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.XtraCharts" tagprefix="dx" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -220,16 +224,10 @@
         <div style="text-align:left">
         <table>
             <tbody class ="text-left"></tbody>
-            <tr>
                 <dx:ASPxLabel ID="ASPxLabel1" runat="server" Text="Kişi Sayısı Seçin" Font-Size="Large"></dx:ASPxLabel>
-            </tr>
-            <tr>
                 <dx:ASPxSpinEdit ID="ASPxSpinEdit1" runat="server" Number="0">
                 </dx:ASPxSpinEdit>
-            </tr>
-            <tr>
                 <dx:ASPxLabel ID="ASPxLabel2" runat="server" Text="Randevu tarihi seçin" Font-Size="Large"></dx:ASPxLabel>
-            </tr>
             <tr>
                 <dx:ASPxDateEdit ID="ASPxDateEdit1" runat="server" Date="03/19/2021 23:27:33" Theme="Office365">
                     <DropDownButton>
@@ -238,10 +236,8 @@
                     </DropDownButton>
                 </dx:ASPxDateEdit>
             </tr>
-            <tr>
                 
                 <dx:ASPxLabel ID="ASPxLabel3" runat="server" Text="Randevu çıkış tarihi seçin" Font-Size="Large"></dx:ASPxLabel>
-            </tr>
             <tr>
                 <dx:ASPxDateEdit ID="ASPxDateEdit2" runat="server" Date="03/19/2021 23:27:33" Theme="Office365">
                     <DropDownButton>
@@ -293,44 +289,66 @@
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>What we offer</h4>
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+    <div>
+        <table>
+            <tr>
+                <td>                    
+                    <dx:WebChartControl ID="WebChartControl1" runat="server" CrosshairEnabled="True" Height="400px" Width="400px">
+                        <DiagramSerializable>
+                            <dx:XYDiagram>
+                                <axisx visibleinpanesserializable="-1">
+                                </axisx>
+                                <axisy visibleinpanesserializable="-1">
+                                </axisy>
+                            </dx:XYDiagram>
+                        </DiagramSerializable>
+<Legend Name="Default Legend"></Legend>
+                        <SeriesSerializable>
+                            <dx:Series Name="Aylar">
+                            </dx:Series>
+                        </SeriesSerializable>
+                    </dx:WebChartControl>
+                </td>
+                <td>
+                    <dx:WebChartControl ID="WebChartControl2" runat="server" CrosshairEnabled="True" Height="400px" Width="400px">
+<Legend Name="Default Legend"></Legend>
+                        <SeriesSerializable>
+                            <dx:Series Name="Semtler" LegendTextPattern="{A}">
+                                <ViewSerializable>
+                                    <dx:PieSeriesView>
+                                    </dx:PieSeriesView>
+                                </ViewSerializable>
+                            </dx:Series>
+                        </SeriesSerializable>
+                    </dx:WebChartControl>
+                </td>
+                <td>                    
+                    <dx:WebChartControl ID="WebChartControl3" runat="server" CrosshairEnabled="True" Height="400px" Width="400px">
+                        <DiagramSerializable>
+                            <dx:XYDiagram>
+                                <axisx visibleinpanesserializable="-1">
+                                </axisx>
+                                <axisy visibleinpanesserializable="-1">
+                                </axisy>
+                            </dx:XYDiagram>
+                        </DiagramSerializable>
+<Legend Name="Default Legend"></Legend>
+                        <SeriesSerializable>
+                            <dx:Series Name="Odalar">
+                                <ViewSerializable>
+                                    <dx:SplineSeriesView>
+                                    </dx:SplineSeriesView>
+                                </ViewSerializable>
+                            </dx:Series>
+                        </SeriesSerializable>
+                    </dx:WebChartControl>
+                </td>
+            </tr>
+        </table>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
- Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
+ 
+
+
 </div>
 
 <!-- Container (Portfolio Section) -->
@@ -344,6 +362,7 @@
  
   </div><br>
 </form>  
+  <h2>What our customers say say saym>  
   <h2>What our customers say say say</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->

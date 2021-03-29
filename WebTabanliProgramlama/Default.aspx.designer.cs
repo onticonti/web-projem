@@ -87,6 +87,33 @@ namespace WebTabanliProgramlama
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
+        /// WebChartControl1 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::DevExpress.XtraCharts.Web.WebChartControl WebChartControl1;
+
+        /// <summary>
+        /// WebChartControl2 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::DevExpress.XtraCharts.Web.WebChartControl WebChartControl2;
+
+        /// <summary>
+        /// WebChartControl3 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::DevExpress.XtraCharts.Web.WebChartControl WebChartControl3;
+
+        /// <summary>
         /// ASPxImageSlider1 denetimi.
         /// </summary>
         /// <remarks>
