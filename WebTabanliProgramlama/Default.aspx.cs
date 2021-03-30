@@ -40,5 +40,9 @@ namespace WebTabanliProgramlama
             WebChartControl3.Series["Odalar"].Points.AddPoint("304", 95);
 
         }
+        public override void VerifyRenderingInServerForm(Control control)
+        {
+            
+        }
     }
 }

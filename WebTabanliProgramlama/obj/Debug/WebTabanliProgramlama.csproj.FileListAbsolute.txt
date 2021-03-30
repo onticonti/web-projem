@@ -95,7 +95,6 @@ C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\bin\de\De
 C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\bin\es\DevExpress.Office.v18.1.Core.resources.dll
 C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\bin\ja\DevExpress.Office.v18.1.Core.resources.dll
 C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\bin\ru\DevExpress.Office.v18.1.Core.resources.dll
-C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\obj\Debug\WebTabanliProgramlama.csprojAssemblyReference.cache
 C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\obj\Debug\WebTabanliProgramlama.dll.licenses
 C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\obj\Debug\WebTabanliProgramlama.csproj.CoreCompileInputs.cache
 C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\obj\Debug\WebTabanliProgramlama.csproj.CopyComplete
@@ -110,3 +109,4 @@ C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\bin\de\De
 C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\bin\es\DevExpress.XtraCharts.v18.1.resources.dll
 C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\bin\ja\DevExpress.XtraCharts.v18.1.resources.dll
 C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\bin\ru\DevExpress.XtraCharts.v18.1.resources.dll
+C:\Users\Onur\source\repos\WebTabanliProgramlama\WebTabanliProgramlama\obj\Debug\WebTabanliProgramlama.csprojAssemblyReference.cache

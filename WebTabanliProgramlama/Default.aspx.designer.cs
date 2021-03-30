@@ -24,6 +24,33 @@ namespace WebTabanliProgramlama
         protected global::DevExpress.Web.ASPxImage ASPxImage1;
 
         /// <summary>
+        /// ASPxLabel4 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxLabel ASPxLabel4;
+
+        /// <summary>
+        /// Cmb1 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxComboBox Cmb1;
+
+        /// <summary>
+        /// SqlDataSource1 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+
+        /// <summary>
         /// ASPxLabel1 denetimi.
         /// </summary>
         /// <remarks>
@@ -114,12 +141,21 @@ namespace WebTabanliProgramlama
         protected global::DevExpress.XtraCharts.Web.WebChartControl WebChartControl3;
 
         /// <summary>
-        /// ASPxImageSlider1 denetimi.
+        /// ASPxGridView1 denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxImageSlider ASPxImageSlider1;
+        protected global::DevExpress.Web.ASPxGridView ASPxGridView1;
+
+        /// <summary>
+        /// SqlDataSource2 denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik üretilmiş alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource2;
     }
 }
